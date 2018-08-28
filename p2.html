@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+
+  <head>
+    <meta charset='utf-8'>
+    <title> Tommy's Memory Game </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/p2-style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  </head>
+
+  <body>
+    <div class='title'><h1>Tommy's Memory Game</h1></div>
+    <div class='container'></div>
+    <div class='footer'>
+      <div id='stars-full'>&starf;&starf;&starf;&starf;&starf;</div>
+      <h2 id='counter'>0 moves</h2>
+      <h2 id='timer'>0 minutes 0 seconds</h2>
+    </div>
+    <div class = 'modal'>
+      <div class = modal-content>
+        <div class = 'congratulations'>
+          <h2>Congratulations!</h2>
+          <h3 id='completed-moves'></h3>
+          <h3 id='completed-time'></h3>
+          <button type='button' class='button' onclick='resetGame()'>Click here to restart!</button>
+        </div>
+    </div>
+
+  </body>
+
+<script type="text/javascript" src='p2.js'></script>
+
+</html>
